@@ -43,7 +43,7 @@ function App() {
     localStorage.setItem(VALID_REGISTRATION_KEY, 'true');
 
     const initialGameState = {
-      balance: 14.70,
+      balance: 30.00,
       scratchCardsUsed: 0,
       hasWonIphone: false
     };

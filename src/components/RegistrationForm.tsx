@@ -227,7 +227,7 @@ export const RegistrationForm: React.FC<RegistrationFormProps> = ({ onRegister }
 
               <div className="bg-white/20 rounded-lg p-3 mb-3">
                 <div className="text-white/80 text-xs mb-0.5">Seu bonus</div>
-                <div className="text-3xl font-bold text-white">R$ 14,70</div>
+                <div className="text-3xl font-bold text-white">R$ 30,00</div>
               </div>
 
               <p className="text-white/80 text-xs flex items-center justify-center gap-2">
@@ -254,7 +254,7 @@ export const RegistrationForm: React.FC<RegistrationFormProps> = ({ onRegister }
                 <span className="text-white font-bold text-sm">CADASTRE-SE E GANHE</span>
               </div>
               <div className="text-2xl font-bold text-white mb-1">
-                R$ 14,70
+                R$ 30,00
               </div>
               <div className="text-gray-400 text-xs">
                 + 3 Raspadinhas Gratis

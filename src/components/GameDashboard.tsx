@@ -70,7 +70,7 @@ export const GameDashboard: React.FC<GameDashboardProps> = ({ user }) => {
   }, []);
 
   const { gameState, startNewCard, completeCard, addBalance, updateKYCStatus } = useGameState();
-  const CARD_COST = 4.90;
+  const CARD_COST = 9.90;
   const [currentCard, setCurrentCard] = useState<any>(null);
   const [showAddBalanceModal, setShowAddBalanceModal] = useState(false);
   const [showWinningScreen, setShowWinningScreen] = useState(false);
@@ -100,7 +100,7 @@ export const GameDashboard: React.FC<GameDashboardProps> = ({ user }) => {
     if (!canPlay) {
       return Math.max(missingAmount, 1);
     }
-    return 4.90;
+    return 9.90;
   };
 
   const handlePlayGame = () => {
@@ -304,7 +304,7 @@ export const GameDashboard: React.FC<GameDashboardProps> = ({ user }) => {
               </div>
               <div className="flex-1">
                 <p className="text-white font-bold text-sm">Bônus Creditado!</p>
-                <p className="text-white/90 text-xs">R$ 14,70 + 3 raspadinhas gratis</p>
+                <p className="text-white/90 text-xs">R$ 30,00 + 3 raspadinhas gratis</p>
               </div>
               <button
                 onClick={() => setShowBonusNotification(false)}
